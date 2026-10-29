@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.idea/
+.vscode/
+
+
+data/*
+!data/.gitkeep
+checkpoints/*
+!checkpoints/.gitkeep
+
+
+*.pth
