@@ -1,7 +1,5 @@
 
 
-```
-
 \# CIFAR10: CNN vs ViT (From Scratch) 🧠⚡
 
 
@@ -213,8 +211,6 @@ The initial inspiration for this comparative study originated from a university 
 \## 📄 License
 
 \[MIT License](LICENSE)
-
-```
 
 
 
