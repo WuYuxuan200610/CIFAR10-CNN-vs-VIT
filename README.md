@@ -78,6 +78,8 @@ CIFAR10-CNN-vs-ViT/
 
 \### 1. 环境准备
 
+
+
 ```bash
 
 pip install -r requirements.txt
@@ -88,7 +90,11 @@ pip install -r requirements.txt
 
 \### 2. 本地冒烟测试 (Smoke Test)
 
+
+
 在消耗算力前，先用随机张量验证网络结构是否存在维度错误：
+
+
 
 ```bash
 
@@ -100,7 +106,11 @@ python smoke\_test.py
 
 \### 3. 模型训练
 
+
+
 默认训练 50 个 Epoch，自动下载 CIFAR-10 数据集：
+
+
 
 ```bash
 
@@ -119,6 +129,8 @@ python train.py --model vit --epochs 50
 
 
 \### 4. 测试集评估与出图
+
+
 
 ```bash
 
@@ -209,6 +221,8 @@ The initial inspiration for this comparative study originated from a university 
 
 
 \## 📄 License
+
+
 
 \[MIT License](LICENSE)
 
