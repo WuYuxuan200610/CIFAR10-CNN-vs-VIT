@@ -2,7 +2,7 @@ import torchvision
 import torchvision.transforms as transforms
 from torch.utils.data import DataLoader, random_split
 
-def get_cifar10_loaders(batch_size=128):
+def get_cifar10_loaders(batch_size=128, data_dir='./data', num_workers=4):
     # 随机裁剪 + 随机水平翻转 + 标准化
     train_transform = transforms.Compose([
         transforms.RandomCrop(32, padding=4),

@@ -84,13 +84,13 @@ def train():
         if val_acc > best_acc:
             best_acc = val_acc
             save_checkpoint(model.state_dict(), args.save_dir, f"{args.model}_best.pth")
-            print(f"🌟 发现新高！模型已保存 (Acc: {best_acc:.2f}%)")
+            print(f"🌟 得到更优参数,已保存 (Acc: {best_acc:.2f}%)")
 
     # 保存训练历史
     history_path = os.path.join(args.save_dir, f"{args.model}_history.json")
     with open(history_path, 'w') as f:
         json.dump(history, f)
-    print(f"🎉 训练完成！历史记录已保存到 {history_path}")
+    print(f"🎉 训练完成,l历史记录已保存到 {history_path}")
 
 if __name__ == "__main__":
     train()
