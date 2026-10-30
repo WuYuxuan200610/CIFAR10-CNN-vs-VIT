@@ -1,4 +1,7 @@
+CIFAR10: CNN vs ViT (From Scratch) 🧠⚡
+测试图片是否显示：
 
+https://assets/cnn_vs_vit_comparison.png
 
 \# CIFAR10: CNN vs ViT (From Scratch) 🧠⚡
 
